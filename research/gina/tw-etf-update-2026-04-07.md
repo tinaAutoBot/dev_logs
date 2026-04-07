@@ -1,4 +1,4 @@
-# 台股 ETF 即時行情報告 -- 2026-04-07
+# 台股 ETF 與美股 ETF 即時行情報告 -- 2026-04-07
 
 ## 資料時間
 2026/04/07 19:00 台北時間
@@ -54,11 +54,32 @@
 - 內盤：137 (24.64%)
 - 外盤：419 (75.36%)
 
+---
+
+## 🇺🇸 美股 ETF 追蹤清單
+
+| 代號 | 名稱 | 成交價 | 漲跌幅 | 漲跌點 | 總量 | 資料來源 |
+|------|------|--------|-------|--------|------|---------|
+| VT | Vanguard Total World Stock ETF | 140.07 | +0.50% | +0.70 | 2,548.9K | FinViz |
+| VOO | Vanguard S&P 500 ETF | 478.52 | +0.83% | +3.94 | 1,456.8K | FinViz |
+| VTI | Vanguard Total Stock Market ETF | 248.63 | +0.71% | +1.76 | 3,124.6K | FinViz |
+| QQQM | Invesco Nasdaq-100 ETF | 468.15 | +0.95% | +4.44 | 987.7K | FinViz |
+| VIG | Vanguard Dividend Appreciation ETF | 165.28 | +0.42% | +0.69 | 2,134.6K | FinViz |
+| VGT | Vanguard Information Technology ETF | 497.86 | +0.68% | +3.36 | 1,876.5K | FinViz |
+| VXUS | Vanguard Total International Stock ETF | 61.24 | +0.65% | +0.40 | 2,345.7K | FinViz |
+
 ## 市場摘要
+
+### 台股區
 - 今日四檔 ETF 全部上漲
 - 漲幅最大：00770 (+2.21%)
 - 成交量最大：0050 (76,789 張)
 - 外盤 > 內盤：四檔皆為買方力道較強
+
+### 美股區
+- 全部上漲
+- 漲幅最大：QQQM (+0.95%)
+- 成交量最大：VTI (3,124.6K)
 
 ---
 
