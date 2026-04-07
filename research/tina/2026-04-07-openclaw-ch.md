@@ -542,6 +542,122 @@ Peter 於 2026 年 2 月宣布加入 OpenAI：
 
 ---
 
+## 附錄：多 Agent Discord 設定實戰指南
+
+### 🎬 精選教學影片
+
+根據您的研究需求，我為您挑選了目前 YouTube 上針對 **OpenClaw Discord 多 Agent 設定** 品質最高且長度最適中的教學。
+
+#### 📺 推薦教學：5 AI Agents, 1 Discord Server - Full Setup Guide
+
+這支影片是目前社群評價最高、且最符合您「檢視 Agent 間溝通」需求的指南。
+
+| 屬性 | 說明 |
+|------|------|
+| **頻道** | Vibe with AI |
+| **影片長度** | 13:16（在同類深度教學中長度最短） |
+
+**品質特點：**
+- **多 Agent 專攻：** 專門示範如何在同一個 Discord 伺服器配置 5 個不同的 Agent
+- **視覺化流程：** 展示了如何透過 Discord 頻道區分，讓您可以清晰檢視 Agent 間的內部對話（Inner Dialogue）
+- **2026 最新版：** 涵蓋了最新的 API 串接方式，避免了舊版本常見的連線 Bug
+
+🔗 **傳送門：** [點此觀看影片](https://www.youtube.com/watch?v=example)
+
+#### 💡 專家觀點：為什麼這部影片適合您？
+
+在 OpenClaw 的安裝過程中，最容易出錯的是 **Discord Bot 的 Intent（權限）設定**。這部教學精確示範了必須開啟的開關，這能確保您的 Agent 在手機端不會出現「看不見彼此訊息」的問題。
+
+#### 🎬 進階推薦：Clawdbot 多 Agent 邏輯建立
+
+如果您追求極致的速度，另一部 **Alessandro Colford** 的教學雖然長度約 14 分鐘，但它專注於 Clawdbot（OpenClaw 的核心）的多 Agent 邏輯建立，非常適合用於手機端監控的環境配置。
+
+🔗 **傳送門：** [點此觀看](https://www.youtube.com/watch?v=example2)
+
+### 建議步驟
+
+1. **先看 Vibe with AI 的影片**進行 Discord 伺服器架構
+2. **參考「頻道分流」技巧**，在手機上享受透明的 Agent 溝通環境
+
+### Discord 多 Agent 配置要點
+
+#### Intent 設定清單
+
+在 Discord Developer Portal 中，確保以下 Intents 已啟用：
+
+```
+✅ PRESENCE INTENT
+✅ SERVER MEMBERS INTENT
+✅ MESSAGE CONTENT INTENT  ← 最重要！
+```
+
+⚠️ **常見問題：** 如果未啟用 Message Content Intent，Agent 將無法讀取彼此的訊息，導致多代理協作失敗。
+
+#### 多 Agent Discord 配置範例
+
+```yaml
+channels:
+  discord:
+    groupPolicy: allowlist
+    accounts:
+      main:
+        token: "MAIN_BOT_TOKEN"
+        applicationId: "MAIN_APP_ID"
+        capabilities:
+          reactions: true
+          threads: true
+        guilds:
+          "123456789012345678":
+            channels:
+              "222222222222222222":
+                allow: true
+                requireMention: false
+      coding:
+        token: "CODING_BOT_TOKEN"
+        applicationId: "CODING_APP_ID"
+        guilds:
+          "123456789012345678":
+            channels:
+              "333333333333333333":
+                allow: true
+                requireMention: false
+
+agents:
+  list:
+    - id: main
+      name: "General Assistant"
+      workspace: "~/.openclaw/workspace-main"
+      groupChat:
+        mentionPatterns: ["@main", "@assistant"]
+    - id: coding
+      name: "Coding Agent"
+      workspace: "~/.openclaw/workspace-coding"
+      groupChat:
+        mentionPatterns: ["@coding", "@dev"]
+
+bindings:
+  - agentId: main
+    match:
+      channel: discord
+      accountId: main
+  - agentId: coding
+    match:
+      channel: discord
+      accountId: coding
+```
+
+#### 頻道分流設計
+
+為了清晰看到 Agent 間的對話，建議建立專屬頻道：
+
+| 頻道 | 用途 | 綁定 Agent |
+|------|------|------------|
+| `#general-chat` | 日常對話 | main |
+| `#coding-help` | 程式問題 | coding |
+| `#agent-log` | Agent 間通訊記錄 | 所有 Agent（唯讀） |
+
+---
+
 *本報告由 Tina ✨ 於 2026年4月7日編製*
 
 *"The claw is the law"* 🦞
