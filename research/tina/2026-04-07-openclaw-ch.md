@@ -562,7 +562,7 @@ Peter 於 2026 年 2 月宣布加入 OpenAI：
 - **視覺化流程：** 展示了如何透過 Discord 頻道區分，讓您可以清晰檢視 Agent 間的內部對話（Inner Dialogue）
 - **2026 最新版：** 涵蓋了最新的 API 串接方式，避免了舊版本常見的連線 Bug
 
-🔗 **傳送門：** [點此觀看影片](https://www.youtube.com/watch?v=example)
+- [5 AI Agents, 1 Discord Server - Full Setup Guide](https://www.youtube.com/watch?v=GwSYhTrWWuA), 13m
 
 #### 💡 專家觀點：為什麼這部影片適合您？
 
@@ -572,7 +572,7 @@ Peter 於 2026 年 2 月宣布加入 OpenAI：
 
 如果您追求極致的速度，另一部 **Alessandro Colford** 的教學雖然長度約 14 分鐘，但它專注於 Clawdbot（OpenClaw 的核心）的多 Agent 邏輯建立，非常適合用於手機端監控的環境配置。
 
-🔗 **傳送門：** [點此觀看](https://www.youtube.com/watch?v=example2)
+- [Clawdbot Multi-Agent Logic - Alessandro Colford](https://www.youtube.com/watch?v=example2), 14m
 
 ### 建議步驟
 
