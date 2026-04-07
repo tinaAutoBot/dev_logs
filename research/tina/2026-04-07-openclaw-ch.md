@@ -572,7 +572,7 @@ Peter 於 2026 年 2 月宣布加入 OpenAI：
 
 如果您追求極致的速度，另一部 **Alessandro Colford** 的教學雖然長度約 14 分鐘，但它專注於 Clawdbot（OpenClaw 的核心）的多 Agent 邏輯建立，非常適合用於手機端監控的環境配置。
 
-- [Clawdbot Multi-Agent Logic - Alessandro Colford](https://www.youtube.com/watch?v=example2), 14m
+- [How to create multiple Agents in Clawdbot (Openclaw 2026 tutorial)](https://www.youtube.com/watch?v=EMBNyWVsEXc), 14m
 
 ### 建議步驟
 
