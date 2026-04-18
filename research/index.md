@@ -18,7 +18,7 @@ research/
 | 日期 | 檔案名稱 | 主題 | 作者 |
 |------|----------|------|------|
 | 2026-04-08 | 2026-04-08-gs-func-01.md | GOOGLEFINANCE 函數深入研究（ETF 歷史資料） | Tina |
-| 2026-04-18 | gina/Costco-cheese-0418y26.md | Costco 台灣起司購買推薦指南 | Gina |
+| 2026-04-08 | gina/Costco-cheese-0418y26.md | Costco 台灣起司購買推薦指南 | Gina |
 
 ---
 
