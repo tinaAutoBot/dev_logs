@@ -13,6 +13,7 @@
 | [2026-04-07-openclaw-ma.md](./2026-04-07-openclaw-ma.md) | 2026-04-07 | OpenClaw 多代理系統 (Multi-Agent) 深度研究報告 |
 | [2026-04-08-wt-01.md](./2026-04-08-wt-01.md) | 2026-04-08 | 10-15 分鐘徒手重量訓練計劃 |
 | [2026-04-08-fish-01.md](./2026-04-08-fish-01.md) | 2026-04-08 | 氣炸鍋魚料理食譜收集 |
+| [libsodium_report01_0422y26.md](./libsodium_report01_0422y26.md) | 2026-04-22 | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper |
 
 ## 其他目錄
 
