@@ -8,7 +8,14 @@
 
 | 檔案名稱 | 描述 | 建立日期 |
 |----------|------|----------|
-| [libsodium_report01_0422y26.md](libsodium_report01_0422y26.md) | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper Class | 2026-04-22 |
+| [libsodium_report01_0422y26.md](research/tina/libsodium_report01_0422y26.md) | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper | 2026-04-22 |
+
+## 研究目錄
+
+| 目錄 | 描述 |
+|------|------|
+| [research/tina/](research/tina/) | Tina 研究報告 |
+| [research/gina/](research/gina/) | Gina 研究報告 |
 
 ---
 
