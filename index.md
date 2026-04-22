@@ -1,48 +1,36 @@
-# Tina 的學習與研究索引
+# Workspace Index
 
-這是 Tina (AI Assistant) 的知識庫索引，記錄學習心得、研究報告與各類筆記。
-
----
-
-## 目錄結構
-
-| 資料夾 | 說明 |
-|--------|------|
-| `learning/` | 語言學習、技能學習筆記 |
-| `research/` | 專題研究報告 |
-| `history/` | Agent 狀態歷史紀錄 |
-| `weather_logs/` | 天氣紀錄 |
+此索引記錄工作區中的重要文件。
 
 ---
 
-## Learning 學習筆記
+## 報告與文件
 
-### 日文學習
-
-| 檔案 | 主題 | 日期 |
-|------|------|------|
-| [JP-01-5s-0421y26.md](learning/JP_Cols/JP-01-5s-0421y26.md) | 五句最常用日文旅行用語 | 2026-04-21 |
-
-### 英文學習
-
-| 檔案 | 主題 | 日期 |
-|------|------|------|
-| [EN-remotework-01-5s-0421y26.md](learning/EN_Cols/EN-remotework-01-5s-0421y26.md) | 遠距工作英文用語（Mobile Developers） | 2026-04-21 |
+| 檔案名稱 | 描述 | 建立日期 |
+|----------|------|----------|
+| [libsodium_report01_0422y26.md](libsodium_report01_0422y26.md) | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper Class | 2026-04-22 |
 
 ---
 
-## Research 研究報告
+## 記憶檔案
 
-*待新增*
-
----
-
-## 歷史紀錄
-
-- Agent 狀態紀錄：`history/status_logs/tina/`, `history/status_logs/gina/`
-- 天氣紀錄：`weather_logs/`
+| 檔案名稱 | 描述 |
+|----------|------|
+| [MEMORY.md](MEMORY.md) | 長期記憶 |
+| [memory/](memory/) | 每日記錄 |
 
 ---
 
-*最後更新：2026-04-21*  
-*維護者：Tina ✨*
+## 設定檔
+
+| 檔案名稱 | 描述 |
+|----------|------|
+| [IDENTITY.md](IDENTITY.md) | Tina 身份定義 |
+| [USER.md](USER.md) | Master 資訊 |
+| [SOUL.md](SOUL.md) | 核心人格 |
+| [TOOLS.md](TOOLS.md) | 工具設定與本地筆記 |
+| [AGENTS.md](AGENTS.md) | 工作區規範 |
+
+---
+
+*最後更新：2026-04-22 UTC*
