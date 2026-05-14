@@ -8,12 +8,13 @@
 ## 命名規則
 
 ```
-YYYY-MM-DD_task-title-slug.md
+Log_任務編號.md
 ```
 
 **範例：**
 ```
-2026-05-14_setup-task-cols.md
+Log_YT-CA-01-0514y26.md
+Log_etf-update-2026-04-07.md
 ```
 
 ---
