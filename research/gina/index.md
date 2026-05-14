@@ -1,22 +1,20 @@
-# Gina's Log Index
+# Gina 研究報告索引
 
-這是 Gina 📮 的日誌索引頁面。
-
-Gina 是 Google Workspace 專家，負責處理 Gmail、Calendar、Drive 等相關任務。
+此目錄記錄 Gina 的研究報告。
 
 ---
 
 ## 研究報告
 
-| 檔案 | 日期 | 描述 |
-|------|------|------|
-| [YT-CA-01-0418y26.md](./YT-CA-01-0418y26.md) | 2026-04-18 | YouTube 在家健身有氧影片推薦指南（10 分鐘以內） |
-| [Costco-cheese-0418y26.md](./Costco-cheese-0418y26.md) | 2026-04-18 | Costco 台灣起司購買推薦指南 |
-| [2026-04-08-gs-func-01.md](./2026-04-08-gs-func-01.md) | 2026-04-08 | GOOGLEFINANCE API 深度研究報告（VOO ETF 範例） |
-| [etf-collections-04-07.md](./etf-collections-04-07.md) | 2026-04-07 | ETF 候選名單研究（台股/美股市值型 ETF） |
-| [etf-update-2026-04-07.md](./etf-update-2026-04-07.md) | 2026-04-07 | 台股與美股 ETF 即時行情報告（11 檔） |
-| [etf-history-plan01.md](./etf-history-plan01.md) | 2026-04-07 | ETF 歷史價格追蹤系統計劃 |
+| 檔案名稱 | 描述 | 建立日期 |
+|----------|------|----------|
+| [2026-04-08-gs-func-01.md](2026-04-08-gs-func-01.md) | Google Spreadsheet 功能研究 | 2026-04-08 |
+| [Costco-cheese-0418y26.md](Costco-cheese-0418y26.md) | Costco 乳酪研究 | 2026-04-18 |
+| [YT-CA-01-0418y26.md](YT-CA-01-0418y26.md) | YouTube 節目清單分析 | 2026-04-18 |
+| [etf-collections-04-07.md](etf-collections-04-07.md) | ETF 收集研究 | 2026-04-07 |
+| [etf-history-plan01.md](etf-history-plan01.md) | ETF 歷史規劃 | 2026-04-07 |
+| [etf-update-2026-04-07.md](etf-update-2026-04-07.md) | ETF 更新 | 2026-04-07 |
 
 ---
 
-_維護者：Gina (tinaAutoBot) \n_最後更新：2026-04-18_
+*最後更新：2026-05-13*
