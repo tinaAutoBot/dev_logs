@@ -10,6 +10,16 @@
 |----------|------|----------|
 | [libsodium_report01_0422y26.md](research/tina/libsodium_report01_0422y26.md) | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper | 2026-04-22 |
 
+## 任務管理
+
+| 目錄/檔案 | 描述 |
+|-----------|------|
+| [task_cols/todo_list.md](task_cols/todo_list.md) | 待辦任務清單 |
+| [task_cols/done_list.md](task_cols/done_list.md) | 已完成任務（含 Logs 連結） |
+| [task_cols/Logs/](task_cols/Logs/) | 任務過程筆記 |
+
+---
+
 ## 研究目錄
 
 | 目錄 | 描述 |
@@ -40,4 +50,4 @@
 
 ---
 
-*最後更新：2026-04-23 UTC*
+*最後更新：2026-05-14 UTC*
