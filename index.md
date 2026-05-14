@@ -9,6 +9,7 @@
 | 檔案名稱 | 描述 | 建立日期 |
 |----------|------|----------|
 | [libsodium_report01_0422y26.md](research/tina/libsodium_report01_0422y26.md) | libsodium 使用報告：對稱加密、非對稱加密、C++ Wrapper | 2026-04-22 |
+| [YT-CA-01-0514y26.md](research/tina/YT-CA-01-0514y26.md) | YouTube 在家有氧健身影片推薦（10 分鐘以內，中英文知名網紅） | 2026-05-14 |
 
 ## 研究目錄
 
